@@ -93,3 +93,6 @@ footer{
     line-height: 1.5;
     flex-grow: 1;
 }
+.card.card-title{
+    color:#0b5ed7;
+}
