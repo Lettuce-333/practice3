@@ -136,3 +136,38 @@ footer{
         background-color: #444;
     }
 }
+@media print {
+    nav, .my-nav {
+        display: none !important;
+    }
+    footer {
+        display: none !important;
+    }
+    .col-md-6, .col-lg-4 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .my-card {
+        background: #fff !important;
+        border: 1px solid #999 !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+    }
+    .my-card img {
+        height: 150px !important;
+        object-fit: contain !important;
+    }
+    body {
+        font-size: 12px;
+        background: #fff !important;
+        color: #000 !important;
+    }
+    .my-section h2 {
+        color: #000 !important;
+        border-bottom-color: #000 !important;
+    }
+    .my-section {
+        background: #fff !important;
+        border: none !important;
+    }
+}
