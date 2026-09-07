@@ -1,0 +1,21 @@
+body {
+    font-size: clamp(14px, min(2vw, 18px), 18px) !important;
+}
+h1 {
+    font-size: clamp(22px, min(5vw, 42px), 42px) !important;
+}
+h2,
+.my-section h2,
+section h2 {
+    font-size: clamp(18px, min(3.5vw, 30px), 30px) !important;
+}
+.card h5,
+.my-card .card-title,
+.card-title {
+    font-size: clamp(14px, min(2.8vw, 22px), 22px) !important;
+}
+.card-text,
+.my-card .card-text,
+p {
+    font-size: clamp(12px, min(1.8vw, 16px), 16px) !important;
+}
